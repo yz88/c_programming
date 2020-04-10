@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=004011EA
+eax=00403040 ebx=0062CC7C ecx=20000008 edx=00000000 esi=612CDE8A edi=0062CD64
+ebp=0062CC58 esp=0062CC30 program=C:\Users\wiege\Documents\esp32-dev-env\msys32\home\Holger\c_programming\basics\string_pointer.exe, pid 9080, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0062CC58  004011EA (00000001, 0062CC7C, 200000D0, 61009E40)
+0062CD08  61009EA2 (00000000, 0062CD64, 61008DC0, 00000000)
+End of stack trace

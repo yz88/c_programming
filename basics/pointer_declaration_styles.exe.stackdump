@@ -1,0 +1,10 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=61164CC1
+eax=00000053 ebx=00000053 ecx=0062CC28 edx=00000053 esi=00000001 edi=00000053
+ebp=0062C958 esp=0062C954 program=C:\Users\wiege\Documents\esp32-dev-env\msys32\home\Holger\c_programming\basics\pointer_declaration_styles.exe, pid 11604, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0062C958  61164CC1 (00000053, 0062CA40, 004030DC, 00000001)
+0062CAB4  61187E37 (0053002B, 002B002B, 0062CD58, 00000000)
+0040306E  0000001D (746E696F, 53207265, 656C7974, 68632720)
+End of stack trace
